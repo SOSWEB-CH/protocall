@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="http://protocall.fr/wp-content/plugins/google-sitemap-generator/sitemap.xsl"?><!-- generator="wordpress/3.3.1" -->
+<!-- sitemap-generator-url="http://www.arnebrachhold.de" sitemap-generator-version="3.2.6" -->
+<!-- generated-on="1 March 2012 15 h 15 min" -->
+<!-- Debug: Total comment count: 0 -->
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">	<url>
+		<loc>http://protocall.fr/</loc>
+		<lastmod>2012-03-01T15:06:46+00:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+	</url>
+<!-- Debug: Start Postings -->
+	<url>
+		<loc>http://protocall.fr/?page_id=190</loc>
+		<lastmod>2012-03-01T15:06:46+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 46: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://protocall.fr/?p=46</loc>
+		<lastmod>2012-03-01T14:40:56+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 42: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://protocall.fr/?p=42</loc>
+		<lastmod>2012-03-01T14:40:18+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://protocall.fr/?page_id=93</loc>
+		<lastmod>2012-03-01T14:37:07+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: Priority report of postID 39: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://protocall.fr/?p=39</loc>
+		<lastmod>2012-02-20T14:52:00+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+<!-- Debug: Priority report of postID 65: Comments: 0 of 0 = 0 points -->
+	<url>
+		<loc>http://protocall.fr/?p=65</loc>
+		<lastmod>2012-02-20T14:51:37+00:00</lastmod>
+		<changefreq>monthly</changefreq>
+		<priority>0.2</priority>
+	</url>
+	<url>
+		<loc>http://protocall.fr/?page_id=89</loc>
+		<lastmod>2011-11-28T13:45:19+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+	<url>
+		<loc>http://protocall.fr/?page_id=119</loc>
+		<lastmod>2011-11-02T12:55:38+00:00</lastmod>
+		<changefreq>weekly</changefreq>
+		<priority>0.6</priority>
+	</url>
+<!-- Debug: End Postings -->
+<!-- Debug: Start Custom Pages -->
+<!-- Debug: End Custom Pages -->
+<!-- Debug: Start additional URLs -->
+<!-- Debug: End additional URLs -->
+</urlset>

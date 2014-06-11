@@ -1,0 +1,41 @@
+# robots.txt fichier optimisé pour site wordpress par SOSWEB.CH
+#            l'utilisation d'un plugin de gestion de balises
+#            <meta name="robots" content="index, follow" /> et <meta name="robots" content="noindex, nofollow" />
+#            tel que "WordPress Meta Robots" ou "All In One SEO" est fortement recommandée
+
+User-agent: * # Indique que les règles suivants s’appliquent à tous les robots
+Disallow: /cgi-bin # Ne pas référencer le répertoire cgi-bin
+Disallow: /wp-admin # Ne pas référencer le répertoire des fichiers d’admin
+Disallow: /wp-includes # Ne pas référencer le répertoire ducode wp
+Disallow: /wp-content/plugins # Ne pas référencer le répertoire des plugins
+Disallow: /wp-content/cache # Ne pas référencer le répertoire cache
+Disallow: /wp-content/themes # Ne pas référencer le répertoire des thèmes
+Allow: /category # Autorise le passage sur les pages de catégories (l’indexation est bloquée par la balise name="robots")
+Allow: /page  # Autorise le passage sur les sous-pages (archives et catégories) mais l’indexation est bloquée par la balise name="robots"
+Allow: /2011/ # Autorise le passage sur les pages d’archives mais l’indexation est bloquée par la balise name="robots"
+Allow: /2012/ # Idem
+Disallow: /feed/ # Ne pas référencer le feed (il sera au besoin référencé par feedburner)
+Disallow: */trackback # Ne pas référencer les trackbacks (déjà référencés via la note)
+Disallow: */feed # Ne pas référencer les feeds de notes et de commentaires
+Disallow: */comments # Ne pas référencer les commentaires (déjà référencés via la note)
+Disallow: /*?* # Ne pas référencer les fichiers dynamiques
+Disallow: /*? # Ne pas référencer les fichiers dynamiques
+Disallow: /*.php$ # Ne pas référencer les fichiers php
+Disallow: /*.js$ # Ne pas référencer les javascripts
+Disallow: /*.inc$ # Ne pas référencer les includes
+Disallow: /*.css$ # Ne pas référencer les styles css
+Allow: /wp-content/uploads # Référencer les images
+
+# Google Image
+User-agent: Googlebot-Image
+Disallow:
+Allow: /* # Autoriser le bot google Image sur tout le site
+ 
+# Google AdSense
+User-agent: Mediapartners-Google*
+Disallow:
+Allow: /* # Autoriser lebot Adsense sur tout le site
+
+# BEGIN XML-SITEMAP-PLUGIN
+Sitemap: http://www.protocall.fr/sitemap.xml # lien vers le sitemap (généré par plugin)
+# END XML-SITEMAP-PLUGIN
